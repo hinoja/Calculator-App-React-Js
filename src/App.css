@@ -32,7 +32,62 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* begin here */
+.main {
+  background-color: pink; 
+  height: 100vh;
+  width: 100%;
+}
+
+* {
+  /* margin:0px ;
+  padding:0px ; */
+  /* box-sizing: border-box; */
+
+}
+
+.title {
+  background: #eee;
+  padding: 30px;
+  text-align: center;
+  /* font-size:x-large; */
+  font-size: 30px;
+  font-family: 'cascadia code', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+
+}
+
+.calc {
+  width: 320px;
+  margin: 30px auto;
+}
+
+#answer {
+  font-size: 35px;
+  padding: 10px;
+  background-color: #e3e3e3;
+  width: 295px;
+  height: 45px;
+  text-align: right;
+  border: 3px solid #333;
+}
+
+.button {
+  background: #333;
+  height: 80px;
+  width: 80px;
+  color: white;
+  font-size: 30px;
+  border: 1px solid black;
+  float: left;
+}
+
+.button2 {
+  width: 160px;
 }
